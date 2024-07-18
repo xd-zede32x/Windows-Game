@@ -11,13 +11,6 @@ namespace ScriptsTime
 
         private void Awake()
         {
-            if (_timeText == null || _dayText == null)
-            {
-                Debug.LogError("TimeText of DayText is not assigned");
-
-                return;
-            }
-
             UpdateTime();
             UpdateDay();
 
